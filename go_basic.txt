@@ -1,0 +1,57 @@
+run go file:
+	go run main.go
+
+what is go ?
+	* Go is a cross-platform, open source programming language
+	* Go can be used to create high-performance applications
+	* Go is a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language
+	* Go was developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 2007
+	* Go's syntax is similar to C++
+
+what is go used for ? 
+	* Web development (server-side)
+	* Developing network-based programs
+	* Developing cross-platform enterprise applications
+	* Cloud-native development
+
+why use go ? 
+	* Go is fun and easy to learn
+	* Go has fast run time and compilation time
+	* Go supports concurrency
+	* Go has memory management
+	* Go works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)	* 
+
+===============Hello world program in go====================
+
+package main
+import ("fmt")
+
+func main(){
+	fmt.Print("Hello World)
+}
+
+package main :-
+	here the program is belongs to the main package(every program is part of the package using package keyword)
+
+import("fmt") :-
+	import packages.
+
+func main(){} :-
+	this is a function in go , any code inside the curly braces will be executed
+
+fmt.Print() :-
+	this is a function made availabe in fmt package, it is used to  output text/print text
+
+=========================================================================
+NOTED:-
+* in go any executable code belongs to m=the main package
+* fmt.Print("hello world") :- this is a statement
+
+go compact code :-
+package main; import ("fmt"); func main(){ fmt.Print("Hello World");} 
+
+==================go comments================
+single line comments :- //
+multi line comments :- /*  */
+
+

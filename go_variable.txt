@@ -1,0 +1,21 @@
+===========go variables====================
+
+int- stores integers (whole numbers), such as 123 or -123
+float32- stores floating point numbers, with decimals, such as 19.99 or -19.99
+string - stores text, such as "Hello World". String values are surrounded by double quotes
+bool- stores values with two states: true or false
+
+=============declaring variables====================
+
+---(1) with var keyword
+
+var variableName variableType = Value;
+
+var name string = "deshan";
+
+----(2)  With the := sign:
+variableNme := value
+
+name := "deshan manodya"
+NOTES :- here the type of the variabel is inferred, the compiler has to decide the type
+NOTES :- It is not possible to declare a variable using :=, without assigning a value to it.
